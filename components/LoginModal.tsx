@@ -9,14 +9,8 @@ export interface AppUser {
 }
 
 export const ALLOWED_USERS = [
-  { name: "Farhan", icon: "👨‍💻" },
-  { name: "Rendy", icon: "👨‍💼" },
-  { name: "Afuan", icon: "👨‍💻" },
-  { name: "Aqsal", icon: "👨‍🔬" },
-  { name: "Wibi", icon: "👨‍🔧" },
-  { name: "Andre", icon: "👨‍💼" },
-  { name: "Melin", icon: "👩‍💼" },
-  { name: "Mahendra", icon: "👨‍💻" },
+  { name: "Siti Fathurrohmah", icon: "👩‍💼" },
+  { name: "HARIS SUDIN", icon: "👨‍💼" },
   { name: "stranger", icon: "👁️", isReadOnly: true },
 ] as const;
 
@@ -35,7 +29,7 @@ export default function LoginModal({
   currentUser,
   isDarkMode,
 }: LoginModalProps) {
-  const [selectedName, setSelectedName] = useState<string>("Farhan");
+  const [selectedName, setSelectedName] = useState<string>("Siti Fathurrohmah");
   const [password, setPassword] = useState<string>("");
   const [errorMsg, setErrorMsg] = useState<string>("");
   const [submitting, setSubmitting] = useState(false);
