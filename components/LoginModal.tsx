@@ -11,6 +11,8 @@ export interface AppUser {
 export const ALLOWED_USERS = [
   { name: "Siti Fathurrohmah", icon: "👩‍💼" },
   { name: "HARIS SUDIN", icon: "👨‍💼" },
+  { name: "Putri", icon: "👩‍💼" },
+  { name: "Azizah", icon: "👩‍💻" },
   { name: "stranger", icon: "👁️", isReadOnly: true },
 ] as const;
 
